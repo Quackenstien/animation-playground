@@ -63,9 +63,7 @@ function App() {
             className="circle red"
             ref={(el) => (circleRed = el)}
             onClick={toggleCircle !== true ? handleExpand : handleShrink}
-          >
-            <h6>Hi</h6>
-          </div>
+          ></div>
           <div className="circle blue" ref={(el) => (circleBlue = el)}></div>
         </div>
       </header>
